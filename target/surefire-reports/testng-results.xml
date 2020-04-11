@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8669" started-at="2020-04-11T14:38:11Z" finished-at="2020-04-11T14:38:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8669" started-at="2020-04-11T14:38:11Z" finished-at="2020-04-11T14:38:20Z">
+      <class name="com.Automation.demo.launch">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:com.Automation.demo.launch@1ac631b]" name="createDriver" is-config="true" duration-ms="5483" started-at="2020-04-11T14:38:11Z" finished-at="2020-04-11T14:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="case1()[pri:0, instance:com.Automation.demo.launch@1ac631b]" name="case1" duration-ms="2289" started-at="2020-04-11T14:38:17Z" finished-at="2020-04-11T14:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case1 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.Automation.demo.launch@1ac631b]" name="quit" is-config="true" duration-ms="882" started-at="2020-04-11T14:38:19Z" finished-at="2020-04-11T14:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.Automation.demo.launch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
