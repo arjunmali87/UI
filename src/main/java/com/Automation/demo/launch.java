@@ -46,17 +46,19 @@ public class launch {
         System.out.println("Url of case 1 : " + driver.getTitle());
         driver.findElement(By.cssSelector("[name='q']")).sendKeys("webElement");
 
+        try {
+			Thread.sleep(5000);
+			System.out.println("Waiting for 5 sec : " + driver.getTitle());
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
         // Get attribute of current active element
         String attr = driver.switchTo().activeElement().getAttribute("title");
         System.out.println("after switch + " +attr);
         
         
-        try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+        
     }
 
 @AfterTest
