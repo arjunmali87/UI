@@ -49,6 +49,14 @@ public class launch {
         // Get attribute of current active element
         String attr = driver.switchTo().activeElement().getAttribute("title");
         System.out.println("after switch + " +attr);
+        
+        
+        try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     }
 
 @AfterTest
