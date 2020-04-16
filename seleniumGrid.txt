@@ -1,0 +1,12 @@
+Command for Grids Setup
+
+1. Navigate to the Jar PAth
+2. Execute the below command to setup the Hub
+java -jar selenium-server-standalone-3.141.59.jar -role hub
+if we get the error change it with some port
+java -jar selenium-server-standalone-3.141.59.jar -role hub -port 8090
+
+3. Execute the below command to register the Node on Hub (open the new command prompt on the same path)
+ java -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub http://192.168.1.64:8090/grid/register
+
+
